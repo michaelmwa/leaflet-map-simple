@@ -27,7 +27,7 @@
 
   /* Set up the initial map center and zoom level */
   var map = L.map('map', {
-    center: [41.77, -72.69], // EDIT coordinates to re-center map
+    center: [25.757207, -80.373523], // new coordinates in Miami
     zoom: 12,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
     scrollWheelZoom: false
   });
@@ -41,8 +41,8 @@
   }).addTo(map);
 
   /* Display a point marker with pop-up text */
-  L.marker([41.77, -72.69]).addTo(map) // EDIT marker coordinates
-  .bindPopup("Insert pop-up text here"); // EDIT pop-up text message
+ L.marker([25.757207, -80.373523]).addTo(map) // new coordinates in Miami
+  .bindPopup("Welcome To Miami"); // EDIT pop-up text message
 
   </script>
 </body>
